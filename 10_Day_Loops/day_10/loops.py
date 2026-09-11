@@ -357,8 +357,17 @@ for country in countries_data:
          frequency[language] = 1
       top10 = sorted(frequency.items(), key = lambda kv: kv[1], reverse = True)[:10]
 print(top10)
-   
 
+# Find the 10 most populated countries in the world
+def getPopulation(countries_data):
+   return countries_data['population']
+
+top_10_population = sorted(countries_data, key = getPopulation,
+reverse = True)[:10]
+print(top_10_population)
+for country in top_10_population:
+   print(f"{country['name']}: {country['population']}")
+   
       
 
       
