@@ -133,6 +133,7 @@ print(formatted_str)
 a = 8
 b = 6
 
+#Q.36 Make the following using string formatting methods
 print('{} + {} = {}'.format(a, b, a + b))
 print('{} - {} = {}'.format(a, b, a - b))
 print('{} * {} = {}'.format(a, b, a * b))

@@ -116,7 +116,7 @@ back_end = ['Node', 'Express', 'MongoDB']
 joined_list = front_end + back_end
 print(joined_list)
 
-#27. After joining the lists in question26. Copy the joined list and assign it to a variable full_stack, then insert Python and SQL after redux
+#27. After joining the lists in question26. Copy the joined list and assign it to a variable full_stack, then  Python and SQL after redux
 full_stack = joined_list.copy()
 #then insert Python and SQL after redux
 full_stack.insert(5, 'Python')
